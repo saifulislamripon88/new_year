@@ -1,0 +1,187 @@
+
+/* banner section design start here */
+.banner {
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    box-sizing: border-box;
+}
+
+.banner_wrapper {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+   
+}
+
+.banner_content {
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+
+}
+.banner_content p{
+    font-size: 32px;
+}
+.banner_content h2{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+/* banner section design end here */
+
+
+/* category section design start here */
+.category{
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    box-sizing: border-box;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.category h1{
+    font-size: 88px;
+    color: red;
+    margin: 0px;
+}
+.category p{
+    color: #FF0000;
+    font-size: 22px;
+}
+.category h3{
+    font-size: 32px;
+    margin: 16px 0;
+}
+/* category section design end here */
+
+
+/* party section design start here */
+.party{
+ 
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    box-sizing: border-box;
+ 
+}
+.party_wrapper {
+    background-image: url(images/party.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+   
+}
+.party_left{
+    float: left;
+    width: 45%;
+    padding-left: 60px;
+}
+
+.party_right{
+    float: right;
+    width: 35%;
+}
+.party_content{
+    color: #ffffff;
+}
+.party_left h2{
+    font-size: 60px;
+    margin: 20px 0;
+}
+.party_left p{
+    font-size: 17px;
+    margin: 20px 0;
+}
+.party_right img {
+    height: 300px;
+    padding-left: 47px;
+}
+/* party section design end here */
+
+
+/* schedule section design start here */
+.schedule{
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    padding: 50px 0;
+    box-sizing: border-box;
+   
+
+}
+
+.schedule_content{
+    text-align: center;
+}
+.schedule_content h3{
+    font-size: 24px;
+    margin: 14px 0;
+}
+.schedule_content span{
+    color: #FF0000;
+}
+/* schedule section design end here */
+
+
+/* main section start here */
+.main{
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    box-sizing: border-box;
+    padding: 70px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+.main_box{
+    float: left;
+    width: 33.33%;
+  
+}
+.img_elipse{
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* main section end here */
+.sale{
+    width: calc(100% - 200px);
+    margin: 0 100px;
+    box-sizing: border-box;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+  
+}
+.sale span{
+    color: red;
+}
+.sale h4{
+    margin: 12px 0;
+}
+.sale h1{
+    font-size: 42px;
+    margin: 12px 0;
+}
+.sale p{
+    width: 70%;
+    margin: 0 auto;
+}
